@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Haberler - Bigaspor Resmi Web Sitesi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="haberler-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/Bigaspor_Yeni.png" alt="Bigaspor Logo">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Ana Sayfa</a></li>
+                <li class="nav-item"><a href="haberler.html" class="nav-link active">Haberler</a></li>
+                <li class="nav-item"><a href="fikstur.html" class="nav-link">Fikstür</a></li>
+                <li class="nav-item"><a href="magaza.html" class="nav-link">Mağaza</a></li>
+                <li class="nav-item"><a href="media.html" class="nav-link">Medya</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#" class="icon-link"><i class="fas fa-search"></i></a>
+                <a href="#" class="icon-link"><i class="fas fa-user"></i></a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- News Header -->
+    <div class="news-header">
+        <div class="container">
+            <h1 class="news-title">BİGASPOR HABERLER</h1>
+        </div>
+    </div>
+
+    <!-- News Categories -->
+    <section class="news-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="category-tab active" data-category="all">Tümü</button>
+                <button class="category-tab" data-category="futbol">Futbol</button>
+                <button class="category-tab" data-category="kulup">Kulüp</button>
+                <button class="category-tab" data-category="baskan">Başkanlık</button>
+                <button class="category-tab" data-category="altyapi">Altyapı</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured News -->
+    <section class="featured-news">
+        <div class="container">
+            <div class="featured-news-grid">
+                <!-- Main Featured News -->
+                <div class="main-news">
+                    <div class="news-card large" data-category="futbol" data-date="2024-04-18" data-id="1" data-views="230">
+                        <div class="news-image">
+                            <img src="https://www.fcbarcelona.com/photo-resources/2023/10/04/ae4ed49b-1577-48cf-a760-dd451ac65c2e/WhatsApp-Image-2023-10-04-at-10.09.43.jpeg?width=1200&height=750" alt="Bigaspor maç">
+                            <div class="news-overlay"></div>
+                        </div>
+                        <div class="news-content">
+                            <span class="news-category">FUTBOL</span>
+                            <h2 class="news-title">BİGASPOR 3-0 RAKİP TAKIM: ÇOK ÖNEMLİ BİR GALİBİYET</h2>
+                            <div class="news-meta">
+                                <span class="news-date">18 Nisan 2024</span>
+                                <span class="news-time"><i class="far fa-clock"></i> 2 saat önce</span>
+                            </div>
+                            <p class="news-summary">Bigaspor, sahasında konuk ettiği rakip takımı 3-0 mağlup ederek liderliğini sürdürdü. Takımımız, bu galibiyetle sezon içerisindeki istikrarını korudu.</p>
+                            <a href="haber-detay.html" class="read-more">DEVAMINI OKU <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Secondary Featured News -->
+                <div class="secondary-news">
+                    <div class="news-card medium" data-category="futbol" data-date="2024-04-17" data-id="2" data-views="185">
+                        <div class="news-image">
+                            <img src="https://www.fcbarcelona.com/photo-resources/2023/09/16/26bd1e39-4ab3-439c-8ddc-c8af19a8bd87/mini_FCB_CDL_JORNADA_2-24.jpg?width=1200&height=750" alt="Bigaspor antrenman">
+                            <div class="news-overlay"></div>
+                        </div>
+                        <div class="news-content">
+                            <span class="news-category">FUTBOL</span>
+                            <h3 class="news-title">KUPA HAZIRLIKLARI DEVAM EDİYOR</h3>
+                            <div class="news-meta">
+                                <span class="news-date">17 Nisan 2024</span>
+                                <span class="news-time"><i class="far fa-clock"></i> 1 gün önce</span>
+                            </div>
+                            <a href="#" class="read-more">DEVAMINI OKU <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="news-card medium" data-category="baskan" data-date="2024-04-16" data-id="3" data-views="120">
+                        <div class="news-image">
+                            <img src="https://www.fcbarcelona.com/photo-resources/2022/05/21/c7b6d608-7b22-4eea-805a-8aad97964fc7/mini_2022-05-21-FCBFEM-ATLETICO-87.jpg?width=1200&height=750" alt="Bigaspor basın toplantısı">
+                            <div class="news-overlay"></div>
+                        </div>
+                        <div class="news-content">
+                            <span class="news-category">BASKAN</span>
+                            <h3 class="news-title">BAŞKANIMIZDAN ÖNEMLİ AÇIKLAMALAR</h3>
+                            <div class="news-meta">
+                                <span class="news-date">16 Nisan 2024</span>
+                                <span class="news-time"><i class="far fa-clock"></i> 2 gün önce</span>
+                            </div>
+                            <a href="haber-detay-baskan.html" class="read-more">DEVAMINI OKU <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News -->
+    <section class="latest-news">
+        <div class="container">
+            <h2 class="section-title">TÜM HABERLER</h2>
+            
+            <div class="news-filters">
+                <div class="filter-group">
+                    <label for="sort-news">Sırala:</label>
+                    <select id="sort-news" class="filter-select">
+                        <option value="newest">En Yeni</option>
+                        <option value="oldest">En Eski</option>
+                        <option value="popular">En Popüler</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="news-grid">
+                <!-- News Item 1 -->
+                <div class="news-card" data-category="futbol" data-date="2024-04-15" data-id="4" data-views="95">
+                    <div class="news-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Chelsea_FC_against_Everton_FC%2C_16_December_2023_21.jpg/1280px-Chelsea_FC_against_Everton_FC%2C_16_December_2023_21.jpg" alt="Bigaspor maç">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">FUTBOL</span>
+                        <h3 class="news-title">HAFTA SONU DERBİ HAZIRLIKLARI SÜRÜYOR</h3>
+                        <div class="news-meta">
+                            <span class="news-date">15 Nisan 2024</span>
+                            <span class="news-time"><i class="far fa-clock"></i> 3 gün önce</span>
+                        </div>
+                        <p class="news-excerpt">Hafta sonu oynanacak olan derbi maçı için takımımız hazırlıklarını sürdürüyor. Teknik direktörümüz taktik antrenmanlarına devam ediyor.</p>
+                        <a href="#" class="read-more">DEVAMINI OKU <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- News Item 2 -->
+                <div class="news-card" data-category="altyapi" data-date="2024-04-14" data-id="5" data-views="75">
+                    <div class="news-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Mateo_Kovacic.jpg/1280px-Mateo_Kovacic.jpg" alt="Bigaspor altyapı">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">ALTYAPI</span>
+                        <h3 class="news-title">U19 TAKIMIMIZ TURNUVADA FİNALE YÜKSELDİ</h3>
+                        <div class="news-meta">
+                            <span class="news-date">14 Nisan 2024</span>
+                            <span class="news-time"><i class="far fa-clock"></i> 4 gün önce</span>
+                        </div>
+                        <p class="news-excerpt">U19 takımımız, katıldığı uluslararası turnuvada yarı final maçını 2-1 kazanarak finale yükseldi. Genç oyuncularımız büyük performans sergiledi.</p>
+                        <a href="#" class="read-more">DEVAMINI OKU <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- News Item 3 -->
+                <div class="news-card" data-category="kulup" data-date="2024-04-12" data-id="6" data-views="110">
+                    <div class="news-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/2023_FA_Cup_Final_%2853129605933%29.jpg/1280px-2023_FA_Cup_Final_%2853129605933%29.jpg" alt="Bigaspor tesis">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">KULÜP</span>
+                        <h3 class="news-title">YENİ ANTRENMAN TESİSLERİMİZ AÇILDI</h3>
+                        <div class="news-meta">
+                            <span class="news-date">12 Nisan 2024</span>
+                            <span class="news-time"><i class="far fa-clock"></i> 6 gün önce</span>
+                        </div>
+                        <p class="news-excerpt">Kulübümüzün yeni antrenman tesislerinin açılışı düzenlenen törenle gerçekleştirildi. Modern tesisimiz en yeni teknolojilerle donatıldı.</p>
+                        <a href="#" class="read-more">DEVAMINI OKU <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- News Item 4 -->
+                <div class="news-card" data-category="baskan" data-date="2024-04-10" data-id="7" data-views="85">
+                    <div class="news-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Euro_2012_press_conference_after_match_Italy_-_Ireland_15.JPG/1280px-Euro_2012_press_conference_after_match_Italy_-_Ireland_15.JPG" alt="Bigaspor başkan">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">BASKAN</span>
+                        <h3 class="news-title">BAŞKANIMIZ UEFA TOPLANTISINA KATILDI</h3>
+                        <div class="news-meta">
+                            <span class="news-date">10 Nisan 2024</span>
+                            <span class="news-time"><i class="far fa-clock"></i> 8 gün önce</span>
+                        </div>
+                        <p class="news-excerpt">Kulüp başkanımız, UEFA'nın düzenlediği Avrupa kulüpleri toplantısına katıldı. Toplantıda gelecek sezon planlamaları görüşüldü.</p>
+                        <a href="#" class="read-more">DEVAMINI OKU <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- News Item 5 -->
+                <div class="news-card" data-category="futbol" data-date="2024-04-08" data-id="8" data-views="135">
+                    <div class="news-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Neymar_training_with_Messi.jpg/1280px-Neymar_training_with_Messi.jpg" alt="Bigaspor transfer">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">FUTBOL</span>
+                        <h3 class="news-title">YENİ TRANSFER TAKIMA KATILDI</h3>
+                        <div class="news-meta">
+                            <span class="news-date">8 Nisan 2024</span>
+                            <span class="news-time"><i class="far fa-clock"></i> 10 gün önce</span>
+                        </div>
+                        <p class="news-excerpt">Yeni transferimiz bugün ilk antrenmanına çıktı. Tecrübeli oyuncu, takımla uyum sürecine hızlı bir şekilde başlamış oldu.</p>
+                        <a href="#" class="read-more">DEVAMINI OKU <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- News Item 6 -->
+                <div class="news-card" data-category="altyapi" data-date="2024-04-05" data-id="9" data-views="90">
+                    <div class="news-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/FIFA_U-20_World_Cup_2019_Final_-_Ukraine_vs_Korea_Republic_%2848097516977%29.jpg/1280px-FIFA_U-20_World_Cup_2019_Final_-_Ukraine_vs_Korea_Republic_%2848097516977%29.jpg" alt="Bigaspor altyapı">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">ALTYAPI</span>
+                        <h3 class="news-title">U17 TAKIMIMIZ ŞAMPİYON OLDU</h3>
+                        <div class="news-meta">
+                            <span class="news-date">5 Nisan 2024</span>
+                            <span class="news-time"><i class="far fa-clock"></i> 13 gün önce</span>
+                        </div>
+                        <p class="news-excerpt">U17 takımımız, lig finalinde rakibini 3-0 yenerek şampiyonluğa ulaştı. Genç yeteneklerimiz büyük bir başarıya imza attı.</p>
+                        <a href="#" class="read-more">DEVAMINI OKU <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- News Item 7 -->
+                <div class="news-card" data-category="kulup" data-date="2024-04-03" data-id="10" data-views="105">
+                    <div class="news-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Outside_Santiago_Bernabeu_Stadium.JPG/1280px-Outside_Santiago_Bernabeu_Stadium.JPG" alt="Bigaspor stadyum">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">KULÜP</span>
+                        <h3 class="news-title">STADYUMUMUZDA YENİLEME ÇALIŞMALARI BAŞLADI</h3>
+                        <div class="news-meta">
+                            <span class="news-date">3 Nisan 2024</span>
+                            <span class="news-time"><i class="far fa-clock"></i> 15 gün önce</span>
+                        </div>
+                        <p class="news-excerpt">Stadyumumuzda başlayan yenileme çalışmaları kapsamında yeni koltuklar, LED aydınlatma ve modern güvenlik sistemleri kurulacak.</p>
+                        <a href="#" class="read-more">DEVAMINI OKU <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- News Item 8 -->
+                <div class="news-card" data-category="futbol" data-date="2024-04-01" data-id="11" data-views="145">
+                    <div class="news-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/France_vs_Finland_8_September_2021_09.jpg/1280px-France_vs_Finland_8_September_2021_09.jpg" alt="Bigaspor gol">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">FUTBOL</span>
+                        <h3 class="news-title">GOLCÜMÜZ AYLIK EN İYİ OYUNCU SEÇİLDİ</h3>
+                        <div class="news-meta">
+                            <span class="news-date">1 Nisan 2024</span>
+                            <span class="news-time"><i class="far fa-clock"></i> 17 gün önce</span>
+                        </div>
+                        <p class="news-excerpt">Takımımızın golcü oyuncusu, Mart ayının en iyi oyuncusu seçildi. Başarılı futbolcu, ay içinde attığı 5 golle bu ödüle layık görüldü.</p>
+                        <a href="#" class="read-more">DEVAMINI OKU <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- News Item 9 -->
+                <div class="news-card" data-category="baskan" data-date="2024-03-29" data-id="12" data-views="80">
+                    <div class="news-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/FIFA_Council_meeting_in_Rwanda_%2833619473058%29.jpg/1280px-FIFA_Council_meeting_in_Rwanda_%2833619473058%29.jpg" alt="Bigaspor toplantı">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">BASKAN</span>
+                        <h3 class="news-title">YÖNETİM KURULU TOPLANTISI YAPILDI</h3>
+                        <div class="news-meta">
+                            <span class="news-date">29 Mart 2024</span>
+                            <span class="news-time"><i class="far fa-clock"></i> 20 gün önce</span>
+                        </div>
+                        <p class="news-excerpt">Kulübümüzün yönetim kurulu, sezon değerlendirme toplantısı gerçekleştirdi. Toplantıda gelecek sezon planlamaları da görüşüldü.</p>
+                        <a href="#" class="read-more">DEVAMINI OKU <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pagination">
+                <a href="#" class="pagination-link active">1</a>
+                <a href="#" class="pagination-link">2</a>
+                <a href="#" class="pagination-link">3</a>
+                <span class="pagination-dots">...</span>
+                <a href="#" class="pagination-link">10</a>
+                <a href="#" class="pagination-next"><i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2 class="newsletter-title">Haberlere Abone Olun</h2>
+                <p class="newsletter-text">En son Bigaspor haberleri için e-posta listemize katılın.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="E-posta adresiniz" required>
+                    <button type="submit">Abone Ol</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section with Social Media -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://twitter.com/bigaspor" class="social-link twitter">
+                <i class="fab fa-x-twitter"></i>
+            </a>
+            <a href="https://instagram.com/bigaspor" class="social-link instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://facebook.com/bigaspor" class="social-link facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://tiktok.com/@bigaspor" class="social-link tiktok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="https://youtube.com/bigaspor" class="social-link youtube">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+        <div class="social-urls">
+            <span class="social-url">twitter.com/bigaspor</span>
+            <span class="social-url">instagram.com/bigaspor</span>
+            <span class="social-url">facebook.com/bigaspor</span>
+            <span class="social-url">tiktok.com/@bigaspor</span>
+            <span class="social-url">youtube.com/bigaspor</span>
+        </div>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="haberler.js"></script>
+</body>
+</html> 

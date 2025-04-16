@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Medya - Bigaspor Resmi Web Sitesi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/Bigaspor_Yeni.png" alt="Bigaspor Logo">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Ana Sayfa</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Haberler</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Fikstür</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Mağaza</a></li>
+                <li class="nav-item"><a href="media.html" class="nav-link active">Medya</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#" class="icon-link"><i class="fas fa-search"></i></a>
+                <a href="#" class="icon-link"><i class="fas fa-user"></i></a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Media Header -->
+    <div class="media-header">
+        <div class="container">
+            <h1 class="media-title">MEDYA</h1>
+            
+            <div class="media-categories">
+                <button class="media-category active" data-filter="all">Tümü</button>
+                <button class="media-category" data-filter="videos">Videolar</button>
+                <button class="media-category" data-filter="galleries">Fotoğraf Galerileri</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Media Section -->
+    <section class="featured-media">
+        <div class="container">
+            <div class="featured-media-item">
+                <div class="featured-media-preview">
+                    <img src="https://www.fenerbahce.org/getmedia/75f9e838-d5e4-45e5-9a2f-f93ff0c121ba/20231031_FB_Basaksehir_08.jpg" alt="Maç Özeti: Bigaspor 3-1 Rakip Takım">
+                    <div class="play-button">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="featured-media-content">
+                    <span class="featured-media-category">MAÇ ÖZETİ</span>
+                    <h2 class="featured-media-title">Bigaspor 3-1 Rakip Takım (Süper Lig 10. Hafta)</h2>
+                    <p class="featured-media-info">Süper Lig'in 10. haftasında evimizde Rakip Takım'ı 3-1 mağlup ettik. Müsabakanın tüm detayları burada!</p>
+                    <div class="featured-media-meta">
+                        <span class="featured-media-date"><i class="far fa-calendar"></i> 15.04.2024</span>
+                        <span class="featured-media-views"><i class="far fa-eye"></i> 10.5K</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Highlights Section -->
+    <section class="media-section">
+        <div class="container">
+            <h2 class="section-title">MAÇ ÖZETLERİ</h2>
+            
+            <div class="media-grid videos-grid">
+                <!-- Video 1 -->
+                <div class="media-card video-card" data-category="videos">
+                    <div class="media-thumbnail">
+                        <img src="https://www.fenerbahce.org/getmedia/75f9e838-d5e4-45e5-9a2f-f93ff0c121ba/20231031_FB_Basaksehir_08.jpg" alt="Maç Özeti">
+                        <div class="play-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <span class="video-duration">05:32</span>
+                    </div>
+                    <div class="media-content">
+                        <h3 class="media-title">Bigaspor 3-1 Rakip Takım | Maç Özeti</h3>
+                        <div class="media-meta">
+                            <span class="media-date">15.04.2024</span>
+                            <span class="media-views">10.5K</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Video 2 -->
+                <div class="media-card video-card" data-category="videos">
+                    <div class="media-thumbnail">
+                        <img src="https://www.fenerbahce.org/getmedia/9d8d0ac5-df92-4e8c-9eb4-44e3ae1a201a/20240107_FB_Antalya_14.jpg" alt="Maç Özeti">
+                        <div class="play-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <span class="video-duration">04:17</span>
+                    </div>
+                    <div class="media-content">
+                        <h3 class="media-title">Rakip Takım 0-2 Bigaspor | Maç Özeti</h3>
+                        <div class="media-meta">
+                            <span class="media-date">08.04.2024</span>
+                            <span class="media-views">8.2K</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Video 3 -->
+                <div class="media-card video-card" data-category="videos">
+                    <div class="media-thumbnail">
+                        <img src="https://www.fenerbahce.org/getmedia/7fc35b4d-7d6c-453e-9ef4-e41978b61d17/20231128_FB_ManU_08.jpg" alt="Maç Özeti">
+                        <div class="play-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <span class="video-duration">06:45</span>
+                    </div>
+                    <div class="media-content">
+                        <h3 class="media-title">Bigaspor 4-0 Rakip Takım | Maç Özeti</h3>
+                        <div class="media-meta">
+                            <span class="media-date">01.04.2024</span>
+                            <span class="media-views">12.3K</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Video 4 -->
+                <div class="media-card video-card" data-category="videos">
+                    <div class="media-thumbnail">
+                        <img src="https://www.fenerbahce.org/getmedia/f8c48b35-a4a5-4aee-8f3e-e53b771d78e4/20231214_FB_USpark_14.jpg" alt="Maç Özeti">
+                        <div class="play-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <span class="video-duration">04:51</span>
+                    </div>
+                    <div class="media-content">
+                        <h3 class="media-title">Rakip Takım 1-3 Bigaspor | Maç Özeti</h3>
+                        <div class="media-meta">
+                            <span class="media-date">25.03.2024</span>
+                            <span class="media-views">9.7K</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-more-container">
+                <a href="#" class="view-more-button">DAHA FAZLA MAÇ ÖZETİ</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Galleries Section -->
+    <section class="media-section">
+        <div class="container">
+            <h2 class="section-title">FOTOĞRAF GALERİLERİ</h2>
+            
+            <div class="media-grid galleries-grid">
+                <!-- Gallery 1 -->
+                <div class="media-card gallery-card" data-category="galleries">
+                    <div class="media-thumbnail">
+                        <img src="https://www.fenerbahce.org/getmedia/6bcccec9-0ef9-4fa3-8a3c-8071e3bcd0ab/22.01.2023-FB-0-1-Tff_12.jpg" alt="Maç Fotoğrafları">
+                        <div class="gallery-icon">
+                            <i class="fas fa-images"></i>
+                        </div>
+                        <span class="gallery-count">24 Fotoğraf</span>
+                    </div>
+                    <div class="media-content">
+                        <h3 class="media-title">Bigaspor - Rakip Takım Maç Fotoğrafları</h3>
+                        <div class="media-meta">
+                            <span class="media-date">15.04.2024</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Gallery 2 -->
+                <div class="media-card gallery-card" data-category="galleries">
+                    <div class="media-thumbnail">
+                        <img src="https://www.fenerbahce.org/getmedia/7e2b7e51-7dcb-48b2-afd0-55b0b60e78a6/10.03.2024_FB_Antalyaspor_29-2.jpg" alt="Antrenman Fotoğrafları">
+                        <div class="gallery-icon">
+                            <i class="fas fa-images"></i>
+                        </div>
+                        <span class="gallery-count">18 Fotoğraf</span>
+                    </div>
+                    <div class="media-content">
+                        <h3 class="media-title">Takımımızın Haftalık Antrenman Fotoğrafları</h3>
+                        <div class="media-meta">
+                            <span class="media-date">12.04.2024</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Gallery 3 -->
+                <div class="media-card gallery-card" data-category="galleries">
+                    <div class="media-thumbnail">
+                        <img src="https://www.fenerbahce.org/getmedia/1bd5c9a8-c12c-4d41-aaaf-8a5fa3e2143c/09.03.2024_FB_Antalyaspor_09-2.jpg" alt="Taraftar Fotoğrafları">
+                        <div class="gallery-icon">
+                            <i class="fas fa-images"></i>
+                        </div>
+                        <span class="gallery-count">36 Fotoğraf</span>
+                    </div>
+                    <div class="media-content">
+                        <h3 class="media-title">Taraftarlarımızla Unutulmaz Anlar</h3>
+                        <div class="media-meta">
+                            <span class="media-date">10.04.2024</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Gallery 4 -->
+                <div class="media-card gallery-card" data-category="galleries">
+                    <div class="media-thumbnail">
+                        <img src="https://www.fenerbahce.org/getmedia/a4bd5a72-c6ee-4a4c-8cde-dbf44d56fcfc/10.03.2024_FB_Antalyaspor_16-2.jpg" alt="Rakip Takım Maç Fotoğrafları">
+                        <div class="gallery-icon">
+                            <i class="fas fa-images"></i>
+                        </div>
+                        <span class="gallery-count">30 Fotoğraf</span>
+                    </div>
+                    <div class="media-content">
+                        <h3 class="media-title">Rakip Takım - Bigaspor Maç Fotoğrafları</h3>
+                        <div class="media-meta">
+                            <span class="media-date">08.04.2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-more-container">
+                <a href="#" class="view-more-button">DAHA FAZLA GALERİ</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section with Social Media -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://twitter.com/bigaspor" class="social-link twitter">
+                <i class="fab fa-x-twitter"></i>
+            </a>
+            <a href="https://instagram.com/bigaspor" class="social-link instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://facebook.com/bigaspor" class="social-link facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://tiktok.com/@bigaspor" class="social-link tiktok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="https://youtube.com/bigaspor" class="social-link youtube">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+        <div class="social-urls">
+            <span class="social-url">twitter.com/bigaspor</span>
+            <span class="social-url">instagram.com/bigaspor</span>
+            <span class="social-url">facebook.com/bigaspor</span>
+            <span class="social-url">tiktok.com/@bigaspor</span>
+            <span class="social-url">youtube.com/bigaspor</span>
+        </div>
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu functionality
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            hamburger.addEventListener('click', function() {
+                hamburger.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+            
+            document.querySelectorAll('.nav-link').forEach(n => 
+                n.addEventListener('click', function() {
+                    hamburger.classList.remove('active');
+                    navMenu.classList.remove('active');
+                })
+            );
+            
+            // Media filters functionality
+            const mediaCategories = document.querySelectorAll('.media-category');
+            const mediaCards = document.querySelectorAll('.media-card');
+            
+            mediaCategories.forEach(category => {
+                category.addEventListener('click', () => {
+                    // Remove active class from all categories
+                    mediaCategories.forEach(c => c.classList.remove('active'));
+                    
+                    // Add active class to clicked category
+                    category.classList.add('active');
+                    
+                    const filter = category.getAttribute('data-filter');
+                    
+                    // Show/hide media cards based on filter
+                    mediaCards.forEach(card => {
+                        if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html> 

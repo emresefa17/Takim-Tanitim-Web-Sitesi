@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Fikstür - Bigaspor Resmi Web Sitesi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fikstur-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/Bigaspor_Yeni.png" alt="Bigaspor Logo">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Ana Sayfa</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Haberler</a></li>
+                <li class="nav-item"><a href="fikstur.html" class="nav-link active">Fikstür</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Mağaza</a></li>
+                <li class="nav-item"><a href="media.html" class="nav-link">Medya</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#" class="icon-link"><i class="fas fa-search"></i></a>
+                <a href="#" class="icon-link"><i class="fas fa-user"></i></a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Fixtures Header -->
+    <div class="fixtures-header">
+        <div class="container">
+            <h1 class="fixtures-title">FİKSTÜR & PUAN DURUMU</h1>
+            
+            <div class="fixtures-tabs">
+                <button class="fixtures-tab active" data-tab="fixtures">Fikstür</button>
+                <button class="fixtures-tab" data-tab="standings">Puan Durumu</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fixture Section -->
+    <section class="fixtures-section active" id="fixtures-content">
+        <div class="container">
+            <div class="fixture-list">
+                <!-- Match 1 (Upcoming) -->
+                <div class="fixture-card">
+                    <div class="fixture-date">
+                        <span class="day">04</span>
+                        <span class="month">Haz</span>
+                        <span class="time">20:30</span>
+                    </div>
+                    <div class="fixture-competition">
+                        <span class="competition-name">Türkiye Kupası</span>
+                        <span class="match-week">Final</span>
+                    </div>
+                    <div class="fixture-teams">
+                        <div class="home-team">
+                            <img src="images/Bigaspor_Yeni.png" alt="Bigaspor" class="team-logo">
+                            <span class="team-name">Bigaspor</span>
+                        </div>
+                        <div class="fixture-score">
+                            <span class="match-time">20:30</span>
+                        </div>
+                        <div class="away-team">
+                            <span class="team-name">Rakip Takım</span>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Galatasaray_Sports_Club_Logo.png" alt="Rakip Takım" class="team-logo">
+                        </div>
+                    </div>
+                    <div class="fixture-stadium">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Atatürk Olimpiyat Stadyumu</span>
+                    </div>
+                </div>
+                
+                <!-- Match 2 (Upcoming) -->
+                <div class="fixture-card">
+                    <div class="fixture-date">
+                        <span class="day">26</span>
+                        <span class="month">May</span>
+                        <span class="time">19:00</span>
+                    </div>
+                    <div class="fixture-competition">
+                        <span class="competition-name">Süper Lig</span>
+                        <span class="match-week">Hafta 38</span>
+                    </div>
+                    <div class="fixture-teams">
+                        <div class="home-team">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Fenerbah%C3%A7e.svg" alt="Rakip Takım" class="team-logo">
+                            <span class="team-name">Rakip Takım</span>
+                        </div>
+                        <div class="fixture-score">
+                            <span class="match-time">19:00</span>
+                        </div>
+                        <div class="away-team">
+                            <span class="team-name">Bigaspor</span>
+                            <img src="images/Bigaspor_Yeni.png" alt="Bigaspor" class="team-logo">
+                        </div>
+                    </div>
+                    <div class="fixture-stadium">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Rakip Stadyum</span>
+                    </div>
+                </div>
+                
+                <!-- Match 3 (Upcoming) -->
+                <div class="fixture-card">
+                    <div class="fixture-date">
+                        <span class="day">19</span>
+                        <span class="month">May</span>
+                        <span class="time">19:00</span>
+                    </div>
+                    <div class="fixture-competition">
+                        <span class="competition-name">Süper Lig</span>
+                        <span class="match-week">Hafta 37</span>
+                    </div>
+                    <div class="fixture-teams">
+                        <div class="home-team">
+                            <img src="images/Bigaspor_Yeni.png" alt="Bigaspor" class="team-logo">
+                            <span class="team-name">Bigaspor</span>
+                        </div>
+                        <div class="fixture-score">
+                            <span class="match-time">19:00</span>
+                        </div>
+                        <div class="away-team">
+                            <span class="team-name">Rakip Takım</span>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Be%C5%9Fikta%C5%9F_JK_logo.svg" alt="Rakip Takım" class="team-logo">
+                        </div>
+                    </div>
+                    <div class="fixture-stadium">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Bigaspor Stadyumu</span>
+                    </div>
+                </div>
+                
+                <!-- Match 4 (Upcoming) -->
+                <div class="fixture-card">
+                    <div class="fixture-date">
+                        <span class="day">12</span>
+                        <span class="month">May</span>
+                        <span class="time">19:00</span>
+                    </div>
+                    <div class="fixture-competition">
+                        <span class="competition-name">Süper Lig</span>
+                        <span class="match-week">Hafta 36</span>
+                    </div>
+                    <div class="fixture-teams">
+                        <div class="home-team">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Galatasaray_Sports_Club_Logo.png" alt="Rakip Takım" class="team-logo">
+                            <span class="team-name">Rakip Takım</span>
+                        </div>
+                        <div class="fixture-score">
+                            <span class="match-time">19:00</span>
+                        </div>
+                        <div class="away-team">
+                            <span class="team-name">Bigaspor</span>
+                            <img src="images/Bigaspor_Yeni.png" alt="Bigaspor" class="team-logo">
+                        </div>
+                    </div>
+                    <div class="fixture-stadium">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Rakip Stadyum</span>
+                    </div>
+                </div>
+                
+                <!-- Match 5 (Upcoming) -->
+                <div class="fixture-card">
+                    <div class="fixture-date">
+                        <span class="day">05</span>
+                        <span class="month">May</span>
+                        <span class="time">19:00</span>
+                    </div>
+                    <div class="fixture-competition">
+                        <span class="competition-name">Süper Lig</span>
+                        <span class="match-week">Hafta 35</span>
+                    </div>
+                    <div class="fixture-teams">
+                        <div class="home-team">
+                            <img src="images/Bigaspor_Yeni.png" alt="Bigaspor" class="team-logo">
+                            <span class="team-name">Bigaspor</span>
+                        </div>
+                        <div class="fixture-score">
+                            <span class="match-time">19:00</span>
+                        </div>
+                        <div class="away-team">
+                            <span class="team-name">Rakip Takım</span>
+                            <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" alt="Rakip Takım" class="team-logo">
+                        </div>
+                    </div>
+                    <div class="fixture-stadium">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Bigaspor Stadyumu</span>
+                    </div>
+                </div>
+                
+                <!-- Match 6 (Upcoming) -->
+                <div class="fixture-card">
+                    <div class="fixture-date">
+                        <span class="day">01</span>
+                        <span class="month">May</span>
+                        <span class="time">20:30</span>
+                    </div>
+                    <div class="fixture-competition">
+                        <span class="competition-name">Türkiye Kupası</span>
+                        <span class="match-week">Yarı Final</span>
+                    </div>
+                    <div class="fixture-teams">
+                        <div class="home-team">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/FC_Barcelona_new.svg" alt="Rakip Takım" class="team-logo">
+                            <span class="team-name">Rakip Takım</span>
+                        </div>
+                        <div class="fixture-score">
+                            <span class="match-time">20:30</span>
+                        </div>
+                        <div class="away-team">
+                            <span class="team-name">Bigaspor</span>
+                            <img src="images/Bigaspor_Yeni.png" alt="Bigaspor" class="team-logo">
+                        </div>
+                    </div>
+                    <div class="fixture-stadium">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Rakip Stadyum</span>
+                    </div>
+                </div>
+                
+                <!-- Match 7 (Upcoming) -->
+                <div class="fixture-card">
+                    <div class="fixture-date">
+                        <span class="day">27</span>
+                        <span class="month">Nis</span>
+                        <span class="time">19:00</span>
+                    </div>
+                    <div class="fixture-competition">
+                        <span class="competition-name">Süper Lig</span>
+                        <span class="match-week">Hafta 34</span>
+                    </div>
+                    <div class="fixture-teams">
+                        <div class="home-team">
+                            <img src="images/Bigaspor_Yeni.png" alt="Bigaspor" class="team-logo">
+                            <span class="team-name">Bigaspor</span>
+                        </div>
+                        <div class="fixture-score">
+                            <span class="match-time">19:00</span>
+                        </div>
+                        <div class="away-team">
+                            <span class="team-name">Rakip Takım</span>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282017%29.svg" alt="Rakip Takım" class="team-logo">
+                        </div>
+                    </div>
+                    <div class="fixture-stadium">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Bigaspor Stadyumu</span>
+                    </div>
+                </div>
+                
+                <!-- Match 8 (Completed) -->
+                <div class="fixture-card">
+                    <div class="fixture-date">
+                        <span class="day">20</span>
+                        <span class="month">Nis</span>
+                        <span class="time">19:00</span>
+                    </div>
+                    <div class="fixture-competition">
+                        <span class="competition-name">Süper Lig</span>
+                        <span class="match-week">Hafta 33</span>
+                    </div>
+                    <div class="fixture-teams">
+                        <div class="home-team">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg" alt="Rakip Takım" class="team-logo">
+                            <span class="team-name">Rakip Takım</span>
+                        </div>
+                        <div class="fixture-score result">
+                            <span class="score">1 - 3</span>
+                            <span class="status">Tamamlandı</span>
+                        </div>
+                        <div class="away-team">
+                            <span class="team-name">Bigaspor</span>
+                            <img src="images/Bigaspor_Yeni.png" alt="Bigaspor" class="team-logo">
+                        </div>
+                    </div>
+                    <div class="fixture-stadium">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Rakip Stadyum</span>
+                    </div>
+                    <div class="fixture-actions">
+                        <a href="#" class="fixture-action-link">Maç Özeti <i class="fas fa-play-circle"></i></a>
+                        <a href="#" class="fixture-action-link">Detaylar <i class="fas fa-info-circle"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Match 9 (Completed) -->
+                <div class="fixture-card">
+                    <div class="fixture-date">
+                        <span class="day">15</span>
+                        <span class="month">Nis</span>
+                        <span class="time">19:00</span>
+                    </div>
+                    <div class="fixture-competition">
+                        <span class="competition-name">Süper Lig</span>
+                        <span class="match-week">Hafta 32</span>
+                    </div>
+                    <div class="fixture-teams">
+                        <div class="home-team">
+                            <img src="images/Bigaspor_Yeni.png" alt="Bigaspor" class="team-logo">
+                            <span class="team-name">Bigaspor</span>
+                        </div>
+                        <div class="fixture-score result">
+                            <span class="score">3 - 1</span>
+                            <span class="status">Tamamlandı</span>
+                        </div>
+                        <div class="away-team">
+                            <span class="team-name">Rakip Takım</span>
+                            <img src="https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg" alt="Rakip Takım" class="team-logo">
+                        </div>
+                    </div>
+                    <div class="fixture-stadium">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Bigaspor Stadyumu</span>
+                    </div>
+                    <div class="fixture-actions">
+                        <a href="#" class="fixture-action-link">Maç Özeti <i class="fas fa-play-circle"></i></a>
+                        <a href="#" class="fixture-action-link">Detaylar <i class="fas fa-info-circle"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Match 10 (Completed) -->
+                <div class="fixture-card">
+                    <div class="fixture-date">
+                        <span class="day">08</span>
+                        <span class="month">Nis</span>
+                        <span class="time">20:30</span>
+                    </div>
+                    <div class="fixture-competition">
+                        <span class="competition-name">Süper Lig</span>
+                        <span class="match-week">Hafta 31</span>
+                    </div>
+                    <div class="fixture-teams">
+                        <div class="home-team">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg" alt="Rakip Takım" class="team-logo">
+                            <span class="team-name">Rakip Takım</span>
+                        </div>
+                        <div class="fixture-score result">
+                            <span class="score">0 - 2</span>
+                            <span class="status">Tamamlandı</span>
+                        </div>
+                        <div class="away-team">
+                            <span class="team-name">Bigaspor</span>
+                            <img src="images/Bigaspor_Yeni.png" alt="Bigaspor" class="team-logo">
+                        </div>
+                    </div>
+                    <div class="fixture-stadium">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Rakip Stadyum</span>
+                    </div>
+                    <div class="fixture-actions">
+                        <a href="#" class="fixture-action-link">Maç Özeti <i class="fas fa-play-circle"></i></a>
+                        <a href="#" class="fixture-action-link">Detaylar <i class="fas fa-info-circle"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Match 11 (Completed) -->
+                <div class="fixture-card">
+                    <div class="fixture-date">
+                        <span class="day">03</span>
+                        <span class="month">Nis</span>
+                        <span class="time">20:00</span>
+                    </div>
+                    <div class="fixture-competition">
+                        <span class="competition-name">Süper Lig</span>
+                        <span class="match-week">Hafta 30</span>
+                    </div>
+                    <div class="fixture-teams">
+                        <div class="home-team">
+                            <img src="images/Bigaspor_Yeni.png" alt="Bigaspor" class="team-logo">
+                            <span class="team-name">Bigaspor</span>
+                        </div>
+                        <div class="fixture-score result">
+                            <span class="score">2 - 0</span>
+                            <span class="status">Tamamlandı</span>
+                        </div>
+                        <div class="away-team">
+                            <span class="team-name">Rakip Takım</span>
+                            <img src="https://upload.wikimedia.org/wikipedia/tr/b/b9/Adanademirspor.png" alt="Rakip Takım" class="team-logo">
+                        </div>
+                    </div>
+                    <div class="fixture-stadium">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Bigaspor Stadyumu</span>
+                    </div>
+                    <div class="fixture-actions">
+                        <a href="#" class="fixture-action-link">Maç Özeti <i class="fas fa-play-circle"></i></a>
+                        <a href="#" class="fixture-action-link">Detaylar <i class="fas fa-info-circle"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Match 12 (Completed) -->
+                <div class="fixture-card">
+                    <div class="fixture-date">
+                        <span class="day">27</span>
+                        <span class="month">Mar</span>
+                        <span class="time">19:00</span>
+                    </div>
+                    <div class="fixture-competition">
+                        <span class="competition-name">Süper Lig</span>
+                        <span class="match-week">Hafta 29</span>
+                    </div>
+                    <div class="fixture-teams">
+                        <div class="home-team">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Trabzonspor_logo.png" alt="Rakip Takım" class="team-logo">
+                            <span class="team-name">Rakip Takım</span>
+                        </div>
+                        <div class="fixture-score result">
+                            <span class="score">1 - 1</span>
+                            <span class="status">Tamamlandı</span>
+                        </div>
+                        <div class="away-team">
+                            <span class="team-name">Bigaspor</span>
+                            <img src="images/Bigaspor_Yeni.png" alt="Bigaspor" class="team-logo">
+                        </div>
+                    </div>
+                    <div class="fixture-stadium">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Rakip Stadyum</span>
+                    </div>
+                    <div class="fixture-actions">
+                        <a href="#" class="fixture-action-link">Maç Özeti <i class="fas fa-play-circle"></i></a>
+                        <a href="#" class="fixture-action-link">Detaylar <i class="fas fa-info-circle"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Standings Section -->
+    <section class="standings-section" id="standings-content">
+        <div class="container">
+            <div class="standings-table-container">
+                <table class="standings-table">
+                    <thead>
+                        <tr>
+                            <th class="position-col">#</th>
+                            <th class="team-col">Takım</th>
+                            <th>O</th>
+                            <th>G</th>
+                            <th>B</th>
+                            <th>M</th>
+                            <th>A</th>
+                            <th>Y</th>
+                            <th>AV</th>
+                            <th class="points-col">P</th>
+                            <th class="form-col">Form</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Team 1 (Bigaspor) -->
+                        <tr class="highlighted-team">
+                            <td class="position-col">1</td>
+                            <td class="team-col">
+                                <div class="team-info">
+                                    <img src="images/Bigaspor_Yeni.png" alt="Bigaspor" class="team-logo-small">
+                                    <span class="team-name">Bigaspor</span>
+                                </div>
+                            </td>
+                            <td>33</td>
+                            <td>28</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>82</td>
+                            <td>18</td>
+                            <td>+64</td>
+                            <td class="points-col">87</td>
+                            <td class="form-col">
+                                <div class="form-indicators">
+                                    <span class="form-indicator win">G</span>
+                                    <span class="form-indicator win">G</span>
+                                    <span class="form-indicator win">G</span>
+                                    <span class="form-indicator win">G</span>
+                                    <span class="form-indicator win">G</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- Team 2 -->
+                        <tr>
+                            <td class="position-col">2</td>
+                            <td class="team-col">
+                                <div class="team-info">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Galatasaray_Sports_Club_Logo.png" alt="Rakip" class="team-logo-small">
+                                    <span class="team-name">Rakip Takım A</span>
+                                </div>
+                            </td>
+                            <td>33</td>
+                            <td>26</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>72</td>
+                            <td>23</td>
+                            <td>+49</td>
+                            <td class="points-col">81</td>
+                            <td class="form-col">
+                                <div class="form-indicators">
+                                    <span class="form-indicator win">G</span>
+                                    <span class="form-indicator win">G</span>
+                                    <span class="form-indicator draw">B</span>
+                                    <span class="form-indicator win">G</span>
+                                    <span class="form-indicator win">G</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- Team 3 -->
+                        <tr>
+                            <td class="position-col">3</td>
+                            <td class="team-col">
+                                <div class="team-info">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Fenerbah%C3%A7e.svg" alt="Rakip" class="team-logo-small">
+                                    <span class="team-name">Rakip Takım B</span>
+                                </div>
+                            </td>
+                            <td>33</td>
+                            <td>22</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>63</td>
+                            <td>30</td>
+                            <td>+33</td>
+                            <td class="points-col">71</td>
+                            <td class="form-col">
+                                <div class="form-indicators">
+                                    <span class="form-indicator loss">M</span>
+                                    <span class="form-indicator win">G</span>
+                                    <span class="form-indicator win">G</span>
+                                    <span class="form-indicator win">G</span>
+                                    <span class="form-indicator draw">B</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- Team 4 -->
+                        <tr>
+                            <td class="position-col">4</td>
+                            <td class="team-col">
+                                <div class="team-info">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Be%C5%9Fikta%C5%9F_JK_logo.svg" alt="Rakip" class="team-logo-small">
+                                    <span class="team-name">Rakip Takım C</span>
+                                </div>
+                            </td>
+                            <td>33</td>
+                            <td>17</td>
+                            <td>9</td>
+                            <td>7</td>
+                            <td>51</td>
+                            <td>31</td>
+                            <td>+20</td>
+                            <td class="points-col">60</td>
+                            <td class="form-col">
+                                <div class="form-indicators">
+                                    <span class="form-indicator win">G</span>
+                                    <span class="form-indicator draw">B</span>
+                                    <span class="form-indicator win">G</span>
+                                    <span class="form-indicator loss">M</span>
+                                    <span class="form-indicator win">G</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- Team 5 -->
+                        <tr>
+                            <td class="position-col">5</td>
+                            <td class="team-col">
+                                <div class="team-info">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Trabzonspor_logo.png" alt="Rakip" class="team-logo-small">
+                                    <span class="team-name">Rakip Takım D</span>
+                                </div>
+                            </td>
+                            <td>33</td>
+                            <td>14</td>
+                            <td>11</td>
+                            <td>8</td>
+                            <td>49</td>
+                            <td>38</td>
+                            <td>+11</td>
+                            <td class="points-col">53</td>
+                            <td class="form-col">
+                                <div class="form-indicators">
+                                    <span class="form-indicator draw">B</span>
+                                    <span class="form-indicator win">G</span>
+                                    <span class="form-indicator draw">B</span>
+                                    <span class="form-indicator win">G</span>
+                                    <span class="form-indicator loss">M</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- Team 6 -->
+                        <tr>
+                            <td class="position-col">6</td>
+                            <td class="team-col">
+                                <div class="team-info">
+                                    <img src="https://upload.wikimedia.org/wikipedia/tr/b/b9/Adanademirspor.png" alt="Rakip" class="team-logo-small">
+                                    <span class="team-name">Rakip Takım E</span>
+                                </div>
+                            </td>
+                            <td>33</td>
+                            <td>14</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>51</td>
+                            <td>45</td>
+                            <td>+6</td>
+                            <td class="points-col">51</td>
+                            <td class="form-col">
+                                <div class="form-indicators">
+                                    <span class="form-indicator win">G</span>
+                                    <span class="form-indicator draw">B</span>
+                                    <span class="form-indicator win">G</span>
+                                    <span class="form-indicator loss">M</span>
+                                    <span class="form-indicator draw">B</span>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="standings-legend">
+                    <div class="legend-item champions-league">
+                        <span class="legend-color"></span>
+                        <span class="legend-text">Şampiyonlar Ligi</span>
+                    </div>
+                    <div class="legend-item europa-league">
+                        <span class="legend-color"></span>
+                        <span class="legend-text">Avrupa Ligi</span>
+                    </div>
+                    <div class="legend-item conference-league">
+                        <span class="legend-color"></span>
+                        <span class="legend-text">Konferans Ligi</span>
+                    </div>
+                    <div class="legend-item relegation">
+                        <span class="legend-color"></span>
+                        <span class="legend-text">Küme Düşme</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section with Social Media -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://twitter.com/bigaspor" class="social-link twitter">
+                <i class="fab fa-x-twitter"></i>
+            </a>
+            <a href="https://instagram.com/bigaspor" class="social-link instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://facebook.com/bigaspor" class="social-link facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://tiktok.com/@bigaspor" class="social-link tiktok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="https://youtube.com/bigaspor" class="social-link youtube">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+        <div class="social-urls">
+            <span class="social-url">twitter.com/bigaspor</span>
+            <span class="social-url">instagram.com/bigaspor</span>
+            <span class="social-url">facebook.com/bigaspor</span>
+            <span class="social-url">tiktok.com/@bigaspor</span>
+            <span class="social-url">youtube.com/bigaspor</span>
+        </div>
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu functionality
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            hamburger.addEventListener('click', function() {
+                hamburger.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+            
+            document.querySelectorAll('.nav-link').forEach(n => 
+                n.addEventListener('click', function() {
+                    hamburger.classList.remove('active');
+                    navMenu.classList.remove('active');
+                })
+            );
+            
+            // Tabs functionality
+            const fixtureTabs = document.querySelectorAll('.fixtures-tab');
+            const fixturesContent = document.getElementById('fixtures-content');
+            const standingsContent = document.getElementById('standings-content');
+            
+            fixtureTabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    // Remove active class from all tabs
+                    fixtureTabs.forEach(t => t.classList.remove('active'));
+                    
+                    // Add active class to clicked tab
+                    tab.classList.add('active');
+                    
+                    const tabId = tab.getAttribute('data-tab');
+                    
+                    if (tabId === 'fixtures') {
+                        fixturesContent.classList.add('active');
+                        standingsContent.classList.remove('active');
+                    } else if (tabId === 'standings') {
+                        fixturesContent.classList.remove('active');
+                        standingsContent.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html> 

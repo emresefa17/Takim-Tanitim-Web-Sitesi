@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mağaza - Bigaspor Resmi Web Sitesi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="magaza-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/Bigaspor_Yeni.png" alt="Bigaspor Logo">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Ana Sayfa</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Haberler</a></li>
+                <li class="nav-item"><a href="fikstur.html" class="nav-link">Fikstür</a></li>
+                <li class="nav-item"><a href="magaza.html" class="nav-link active">Mağaza</a></li>
+                <li class="nav-item"><a href="media.html" class="nav-link">Medya</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#" class="icon-link"><i class="fas fa-search"></i></a>
+                <a href="#" class="icon-link"><i class="fas fa-user"></i></a>
+                <a href="#" class="icon-link cart-icon"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Store Header -->
+    <div class="store-header">
+        <div class="container">
+            <h1 class="store-title">BİGASPOR MAĞAZA</h1>
+            <p class="store-subtitle">Resmi Bigaspor ürünleri ile takımınıza destek olun</p>
+        </div>
+    </div>
+
+    <!-- Categories Section -->
+    <section class="categories-section">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="category-tab active" data-category="all">Tümü</button>
+                <button class="category-tab" data-category="forma">Formalar</button>
+                <button class="category-tab" data-category="giyim">Giyim</button>
+                <button class="category-tab" data-category="aksesuar">Aksesuarlar</button>
+                <button class="category-tab" data-category="ev">Ev Ürünleri</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <h2 class="section-title">ÖNE ÇIKAN ÜRÜNLER</h2>
+            
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="forma">
+                    <div class="product-badge new-badge">Yeni</div>
+                    <div class="product-image">
+                        <img src="https://store.fcbarcelona.com/medias/23-24-STADIUM-HOME-STADIUM-JERSEY-front-CW0825-451.jpg?context=bWFzdGVyfGltYWdlc3wxNDQxNDh8aW1hZ2UvanBlZ3xoMGQvaDQ2LzkzMDI4OTU3MjQ1NzQvMjMtMjRfU1RBRElVTV9IT01FX1NUQURJVU1fSkVSU0VZX2Zyb250X0NXMDgyNS00NTEuanBnfDc5ZjZlNWQyMTJjNjc5YzVlNmE2ODAwYmQ5NzA2YWUzZDIxYjYyNDhjMmU1ZDQ5NDUxNTRmZTU3YTAzNzQxNjY" alt="İç Saha Forması 2023/24">
+                        <div class="product-actions">
+                            <a href="#" class="add-to-cart"><i class="fas fa-shopping-cart"></i> Sepete Ekle</a>
+                            <a href="#" class="quick-view"><i class="fas fa-eye"></i> Hızlı Bakış</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">İç Saha Forması 2023/24</h3>
+                        <div class="product-meta">
+                            <span class="product-price">₺1,499.90</span>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(42)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card" data-category="forma">
+                    <div class="product-badge sale-badge">%15 İndirim</div>
+                    <div class="product-image">
+                        <img src="https://www.fenerbahce.org/getmedia/7a6d3993-7afb-43ce-b05c-b9a5c27aed4a/fenerium_deplasman.jpg" alt="Deplasman Forması 2023/24">
+                        <div class="product-actions">
+                            <a href="#" class="add-to-cart"><i class="fas fa-shopping-cart"></i> Sepete Ekle</a>
+                            <a href="#" class="quick-view"><i class="fas fa-eye"></i> Hızlı Bakış</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Deplasman Forması 2023/24</h3>
+                        <div class="product-meta">
+                            <div class="product-price-container">
+                                <span class="old-price">₺1,499.90</span>
+                                <span class="product-price">₺1,274.90</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(56)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card" data-category="giyim">
+                    <div class="product-badge new-badge">Yeni</div>
+                    <div class="product-image">
+                        <img src="https://www.fenerbahce.org/getmedia/18c7f1c4-29ae-426d-bcd3-10462db81fbd/sweat.jpg" alt="Antrenman Eşofmanı 2023/24">
+                        <div class="product-actions">
+                            <a href="#" class="add-to-cart"><i class="fas fa-shopping-cart"></i> Sepete Ekle</a>
+                            <a href="#" class="quick-view"><i class="fas fa-eye"></i> Hızlı Bakış</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Antrenman Eşofmanı 2023/24</h3>
+                        <div class="product-meta">
+                            <span class="product-price">₺1,899.90</span>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(38)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card" data-category="giyim">
+                    <div class="product-image">
+                        <img src="https://www.fenerbahce.org/getmedia/ab1d3ea8-9da5-4305-9066-ed3bffbb5a5a/kapsonlu.jpg" alt="Kapüşonlu Sweatshirt">
+                        <div class="product-actions">
+                            <a href="#" class="add-to-cart"><i class="fas fa-shopping-cart"></i> Sepete Ekle</a>
+                            <a href="#" class="quick-view"><i class="fas fa-eye"></i> Hızlı Bakış</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Kapüşonlu Sweatshirt</h3>
+                        <div class="product-meta">
+                            <span class="product-price">₺1,099.90</span>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(72)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- All Products Section -->
+    <section class="all-products">
+        <div class="container">
+            <h2 class="section-title">TÜM ÜRÜNLER</h2>
+            
+            <div class="product-filters">
+                <div class="filter-group">
+                    <label for="sort-by">Sırala:</label>
+                    <select id="sort-by" class="filter-select">
+                        <option value="popular">En Popüler</option>
+                        <option value="newest">En Yeni</option>
+                        <option value="price-low">Fiyat: Düşükten Yükseğe</option>
+                        <option value="price-high">Fiyat: Yüksekten Düşüğe</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="product-grid">
+                <!-- Product 5 -->
+                <div class="product-card" data-category="forma">
+                    <div class="product-image">
+                        <img src="https://store.fcbarcelona.com/medias/LK9750-23-24-STADIUM-THIRD-JERSEY-front.jpg?context=bWFzdGVyfGltYWdlc3wxMTgxNDJ8aW1hZ2UvanBlZ3xoMzEvaDBkLzkzMDgwODE5NzE3NDIvTEs5NzUwXzIzLTI0X1NUQURJVU1fVEhJUkRfSkVSU0VZX2Zyb250LmpwZ3w2Nzk5NDRhYTVkNDJiNmM0YjgzNWFmNWMxZTY3MDk3NzQ1ZWJmZWZkMmQwNjJkY2E1MmZkYzQ0NGM3ZjQ5MTFk" alt="Üçüncü Forma 2023/24">
+                        <div class="product-actions">
+                            <a href="#" class="add-to-cart"><i class="fas fa-shopping-cart"></i> Sepete Ekle</a>
+                            <a href="#" class="quick-view"><i class="fas fa-eye"></i> Hızlı Bakış</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Üçüncü Forma 2023/24</h3>
+                        <div class="product-meta">
+                            <span class="product-price">₺1,499.90</span>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(29)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 6 -->
+                <div class="product-card" data-category="giyim">
+                    <div class="product-badge sale-badge">%20 İndirim</div>
+                    <div class="product-image">
+                        <img src="https://www.fenerbahce.org/getmedia/ae07e1dc-de03-485d-9eb0-0f7e4b7e81ec/tshirt.jpg" alt="Logo Baskılı T-shirt">
+                        <div class="product-actions">
+                            <a href="#" class="add-to-cart"><i class="fas fa-shopping-cart"></i> Sepete Ekle</a>
+                            <a href="#" class="quick-view"><i class="fas fa-eye"></i> Hızlı Bakış</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Logo Baskılı T-shirt</h3>
+                        <div class="product-meta">
+                            <div class="product-price-container">
+                                <span class="old-price">₺699.90</span>
+                                <span class="product-price">₺559.90</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                                <span>(45)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 7 -->
+                <div class="product-card" data-category="aksesuar">
+                    <div class="product-image">
+                        <img src="https://www.fenerbahce.org/getmedia/e3d52de7-cba1-42e1-af12-9cbf48a9ce15/buff.jpg" alt="Bigaspor Atkı">
+                        <div class="product-actions">
+                            <a href="#" class="add-to-cart"><i class="fas fa-shopping-cart"></i> Sepete Ekle</a>
+                            <a href="#" class="quick-view"><i class="fas fa-eye"></i> Hızlı Bakış</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Bigaspor Atkı</h3>
+                        <div class="product-meta">
+                            <span class="product-price">₺349.90</span>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(84)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 8 -->
+                <div class="product-card" data-category="aksesuar">
+                    <div class="product-image">
+                        <img src="https://www.fenerbahce.org/getmedia/7cb14686-8b2e-476d-9c3c-2aa2a9f86d2e/snapback.jpg" alt="Bigaspor Şapka">
+                        <div class="product-actions">
+                            <a href="#" class="add-to-cart"><i class="fas fa-shopping-cart"></i> Sepete Ekle</a>
+                            <a href="#" class="quick-view"><i class="fas fa-eye"></i> Hızlı Bakış</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Bigaspor Şapka</h3>
+                        <div class="product-meta">
+                            <span class="product-price">₺399.90</span>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(37)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 9 -->
+                <div class="product-card" data-category="aksesuar">
+                    <div class="product-badge new-badge">Yeni</div>
+                    <div class="product-image">
+                        <img src="https://www.fenerbahce.org/getmedia/e3fbda17-9b6f-4fe6-8e4b-7c42cdbac9a1/suluk.jpg" alt="Bigaspor Matara">
+                        <div class="product-actions">
+                            <a href="#" class="add-to-cart"><i class="fas fa-shopping-cart"></i> Sepete Ekle</a>
+                            <a href="#" class="quick-view"><i class="fas fa-eye"></i> Hızlı Bakış</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Bigaspor Matara</h3>
+                        <div class="product-meta">
+                            <span class="product-price">₺249.90</span>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(22)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 10 -->
+                <div class="product-card" data-category="ev">
+                    <div class="product-image">
+                        <img src="https://www.fenerbahce.org/getmedia/5dc67ba5-1ada-4a65-be4e-56b60c5c7782/kupa.jpg" alt="Bigaspor Kupa Bardak">
+                        <div class="product-actions">
+                            <a href="#" class="add-to-cart"><i class="fas fa-shopping-cart"></i> Sepete Ekle</a>
+                            <a href="#" class="quick-view"><i class="fas fa-eye"></i> Hızlı Bakış</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Bigaspor Kupa Bardak</h3>
+                        <div class="product-meta">
+                            <span class="product-price">₺179.90</span>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(63)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 11 -->
+                <div class="product-card" data-category="ev">
+                    <div class="product-image">
+                        <img src="https://www.fenerbahce.org/getmedia/5c8bfd54-cd05-4ffd-bdff-9ca22cae3b9a/havlu.jpg" alt="Bigaspor Havlu">
+                        <div class="product-actions">
+                            <a href="#" class="add-to-cart"><i class="fas fa-shopping-cart"></i> Sepete Ekle</a>
+                            <a href="#" class="quick-view"><i class="fas fa-eye"></i> Hızlı Bakış</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Bigaspor Havlu</h3>
+                        <div class="product-meta">
+                            <span class="product-price">₺299.90</span>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(41)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 12 -->
+                <div class="product-card" data-category="ev">
+                    <div class="product-badge sale-badge">%10 İndirim</div>
+                    <div class="product-image">
+                        <img src="https://www.fenerbahce.org/getmedia/eff3a00b-ba8b-4b88-9c80-d5abadcba75e/yatak.jpg" alt="Bigaspor Nevresim Takımı">
+                        <div class="product-actions">
+                            <a href="#" class="add-to-cart"><i class="fas fa-shopping-cart"></i> Sepete Ekle</a>
+                            <a href="#" class="quick-view"><i class="fas fa-eye"></i> Hızlı Bakış</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Bigaspor Nevresim Takımı</h3>
+                        <div class="product-meta">
+                            <div class="product-price-container">
+                                <span class="old-price">₺999.90</span>
+                                <span class="product-price">₺899.90</span>
+                            </div>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(52)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2 class="newsletter-title">Kampanyalardan ve Yeniliklerden Haberdar Olun</h2>
+                <p class="newsletter-text">E-posta listesine katılın, özel teklifler ve yeni ürünler hakkında bilgi alın.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="E-posta adresiniz" required>
+                    <button type="submit">Abone Ol</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section with Social Media -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://twitter.com/bigaspor" class="social-link twitter">
+                <i class="fab fa-x-twitter"></i>
+            </a>
+            <a href="https://instagram.com/bigaspor" class="social-link instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://facebook.com/bigaspor" class="social-link facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://tiktok.com/@bigaspor" class="social-link tiktok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="https://youtube.com/bigaspor" class="social-link youtube">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+        <div class="social-urls">
+            <span class="social-url">twitter.com/bigaspor</span>
+            <span class="social-url">instagram.com/bigaspor</span>
+            <span class="social-url">facebook.com/bigaspor</span>
+            <span class="social-url">tiktok.com/@bigaspor</span>
+            <span class="social-url">youtube.com/bigaspor</span>
+        </div>
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu functionality
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            hamburger.addEventListener('click', function() {
+                hamburger.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+            
+            document.querySelectorAll('.nav-link').forEach(n => 
+                n.addEventListener('click', function() {
+                    hamburger.classList.remove('active');
+                    navMenu.classList.remove('active');
+                })
+            );
+            
+            // Category filter functionality
+            const categoryTabs = document.querySelectorAll('.category-tab');
+            const productCards = document.querySelectorAll('.product-card');
+            
+            categoryTabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    // Remove active class from all tabs
+                    categoryTabs.forEach(t => t.classList.remove('active'));
+                    
+                    // Add active class to clicked tab
+                    tab.classList.add('active');
+                    
+                    const category = tab.getAttribute('data-category');
+                    
+                    // Show/hide products based on category
+                    productCards.forEach(card => {
+                        if (category === 'all' || card.getAttribute('data-category') === category) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Quick View functionality
+            const quickViewButtons = document.querySelectorAll('.quick-view');
+            
+            quickViewButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    // Implement quick view modal functionality
+                    alert('Hızlı bakış özelliği yakında eklenecek!');
+                });
+            });
+            
+            // Add to cart functionality
+            const addToCartButtons = document.querySelectorAll('.add-to-cart');
+            const cartCount = document.querySelector('.cart-count');
+            let count = 0;
+            
+            addToCartButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    count++;
+                    cartCount.textContent = count;
+                    // Implement add to cart functionality
+                    alert('Ürün sepetinize eklendi!');
+                });
+            });
+        });
+    </script>
+</body>
+</html> 
